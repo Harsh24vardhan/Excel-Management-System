@@ -1,0 +1,33 @@
+/* Style for the file upload button */
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+      
+      background:#08041c ;
+}
+.upload-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #08041c;
+  background-color: #00dfc4;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the file upload button on hover */
+.upload-btn:hover {
+  background-color: #00dfc4;
+}
+
+/* Style for the file upload button when the file is selected */
+.upload-btn:active {
+  background-color: #00dfc4;
+}
